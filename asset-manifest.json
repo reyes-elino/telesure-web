@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/telesure-web/static/css/main.cee9b966.css",
+    "main.js": "/telesure-web/static/js/main.307c0b9c.js",
+    "static/media/hero-1.png": "/telesure-web/static/media/hero-1.9219239b86c36b2588c1.png",
+    "static/media/primeicons.svg": "/telesure-web/static/media/primeicons.e1441b135b3ca9ad643c.svg",
+    "static/media/Inter-italic.var.woff2?v=3.19": "/telesure-web/static/media/Inter-italic.var.30807be7abc48ba8c73c.woff2",
+    "static/media/Inter-roman.var.woff2?v=3.19": "/telesure-web/static/media/Inter-roman.var.ba4caefcdf5b36b438db.woff2",
+    "static/media/mockup.png": "/telesure-web/static/media/mockup.2ef0288e322d192ce177.png",
+    "static/media/primeicons.eot": "/telesure-web/static/media/primeicons.d44157bdfa026dc877af.eot",
+    "static/media/primeicons.woff": "/telesure-web/static/media/primeicons.10d3152104f2208ac82a.woff",
+    "static/media/primeicons.ttf": "/telesure-web/static/media/primeicons.ea5358601d0a3fd6670b.ttf",
+    "static/media/mockup-desktop.png": "/telesure-web/static/media/mockup-desktop.ddc7d580fe7f4af2ca24.png",
+    "static/media/aboutUs.jpg": "/telesure-web/static/media/aboutUs.041966fbd46d918d8b21.jpg",
+    "static/media/primeicons.woff2": "/telesure-web/static/media/primeicons.78172950b335ccdb94e2.woff2",
+    "static/media/enterprise.png": "/telesure-web/static/media/enterprise.f9b93a19713d2438e39e.png",
+    "index.html": "/telesure-web/index.html",
+    "main.cee9b966.css.map": "/telesure-web/static/css/main.cee9b966.css.map",
+    "main.307c0b9c.js.map": "/telesure-web/static/js/main.307c0b9c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cee9b966.css",
+    "static/js/main.307c0b9c.js"
+  ]
+}
