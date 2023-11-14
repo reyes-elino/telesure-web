@@ -1,0 +1,78 @@
+@import 'primeflex/primeflex.scss';
+
+// Start - For Header Menu
+.header {
+  @include styleclass('px-1 md:px-5 sticky top-0 z-5');
+}
+.p-menuitem-link.active {
+  background: #EFF6FF;
+  
+  .p-menuitem-text, .p-menuitem-icon {
+    color: #1D4ED8;  
+  }
+}
+// End - For Header Menu
+
+// Start - For Footer Menu
+.footer {
+  @include styleclass('shadow-3');
+}
+  .footerLinkHeader {
+    @include styleclass('font-medium text-xl line-height-3 mb-2 text-900');
+  }
+  .footerLink {
+    @include styleclass('no-underline line-height-3 text-lg block cursor-pointer mb-1 text-700');
+  }
+// End - For Footer Menu
+
+// Start - For Buttons
+.p-button-edit {
+  @include styleclass('text-green-600 bg-white border-green-600');
+  
+  &:focus {
+    box-shadow: unset
+  }
+}
+.p-button-delete {
+  @include styleclass('text-red-600 bg-white border-red-600');
+  
+  &:focus {
+    box-shadow: unset
+  }
+}
+// End - For Buttons
+// Start - For Cards
+.card--v1 {
+  @include styleclass('bg-white shadow-2 p-0 border-round-md overflow-hidden');
+}
+// End - For Cards
+// Start - For Page Body
+.body {
+  @include styleclass('px-3 md:px-4 lg:px-5');
+}
+.container {
+  @include styleclass('w-full sm:mx-auto sm:w-11 lg:w-10 xl:w-11');
+}
+.section {
+  @include styleclass('py-4 sm:py-5 lg:py-6 xl:py-7');
+}
+// End - For Page Body
+
+.aboutUs--Hero {
+  @include styleclass('py-4 sm:py-5 lg:py-6 xl:py-7');
+  background-image: url('./Pages/assets/img/aboutUs.jpg');
+  position: relative;
+  background-size: cover;
+  background-position: top center;
+  
+  &::before {
+    content: '';
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .75);
+    z-index: 1;
+  }
+}

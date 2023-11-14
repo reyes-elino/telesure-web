@@ -1,38 +1,126 @@
-.App {
+.p-datatable.dataTable--CardType > .p-datatable-wrapper {
+  margin-top: -14px;
+}
+.p-datatable.dataTable--CardType
+  .p-datatable-scrollable-table
+  > .p-datatable-thead {
+  top: 14px;
+}
+.p-datatable.dataTable--CardType .p-datatable-header {
+    padding: 20px 36px 5px 36px;
+}
+.p-datatable.dataTable--CardType .p-datatable-header,
+.p-datatable.dataTable--CardType .p-paginator {
+  border: unset !important;
+  background: #f8f9fa;
+  z-index: 1;
+  position: relative;
+}
+.p-datatable.dataTable--CardType .p-datatable-tbody > tr.p-datatable-emptymessage > td {
   text-align: center;
+  font-size: 26px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.p-datatable.dataTable--CardType .p-datatable-thead > tr > th {
+  padding: 1.25rem 1rem;
+  border: unset;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.dataTable--CardType .p-datatable-table {
+  border-collapse: separate;
+  border-spacing: 0px 14px;
+  -webkit-border-horizontal-spacing: 0px;
+  -webkit-border-vertical-spacing: 14px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.p-datatable.dataTable--CardType .p-datatable-tbody > tr > td {
+  border-top: solid 1px #d3d3d3;
+  border-bottom: solid 1px #d3d3d3;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.p-datatable.dataTable--CardType .p-datatable-tbody > tr > td:first-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-left: solid 1px #d3d3d3;
+}
+.p-datatable.dataTable--CardType .p-datatable-tbody > tr > td:last-child {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-right: solid 1px #d3d3d3;
+}
+.p-datatable.dataTable--CardType .p-datatable-wrapper tr::before,
+.p-datatable.dataTable--CardType .p-datatable-wrapper tr::after {
+  content: "";
+  width: 16px;
+  display: table-cell;
+}
+.p-datatable.dataTable--CardType .p-datatable-scrollable-header {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-left: solid 1px #f3f3f3;
+  border-top: solid 1px #f3f3f3;
+  border-right: solid 1px #f3f3f3;
+}
+.p-datatable.dataTable--CardType
+  .p-datatable-scrollable-header
+  .p-datatable-scrollable-header-box {
+  margin-right: 0px !important;
+}
+.p-datatable.dataTable--CardType .p-datatable-tfoot > tr > td {
+  border: 0px;
+}
+.p-datatable.dataTable--CardType .p-datatable-scrollable-footer {
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-left: solid 1px #f3f3f3;
+  border-bottom: solid 1px #f3f3f3;
+  border-right: solid 1px #f3f3f3;
+  padding: 0px 8px;
+}
+.p-datatable.dataTable--CardType .p-datatable-scrollable-body {
+  border-left: solid 1px #f3f3f3;
+  border-right: solid 1px #f3f3f3;
+}
+.p-datatable.dataTable--CardType .p-paginator .p-paginator-current {
+  margin-right: auto;
+  padding: 0px;
+}
+.report--actionBtn .p-button {
+  width: -moz-fit-content;
+  width: fit-content !important;
+  padding: 8px 14px !important;
 }
 
-.App-link {
-  color: #61dafb;
+/* width */
+.p-datatable.dataTable--CardType .p-datatable-wrapper::-webkit-scrollbar {
+  width: 8px !important;
+  height: 8px !important;
+}
+/* Track */
+.p-datatable.dataTable--CardType .p-datatable-wrapper::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+/* Handle */
+.p-datatable.dataTable--CardType .p-datatable-wrapper::-webkit-scrollbar-thumb {
+  background: #87c540;
+  border-radius: 10px;
+}
+/* Handle on hover */
+.p-datatable.dataTable--CardType
+  .p-datatable-wrapper::-webkit-scrollbar-thumb:hover {
+  background: #b8de8d;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@media screen and (max-width: 1200px){
+}
+@media screen and (max-width: 992px){
+}
+@media screen and (max-width: 768px){
+    .p-datatable.dataTable--CardType .p-datatable-header {
+        padding: 20px 15px 5px 15px;
+    }
+}
+@media screen and (max-width: 576px){
 }
